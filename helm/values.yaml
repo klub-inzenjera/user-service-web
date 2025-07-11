@@ -1,9 +1,9 @@
 replicaCount: 1
 
-name: {{ service_name }}
+name: user-service-web
 
 image:
-  repository: ghcr.io/klub-inzenjera/{{ service_name }}
+  repository: ghcr.io/klub-inzenjera/user-service-web
   tag: latest
   pullPolicy: IfNotPresent
 
